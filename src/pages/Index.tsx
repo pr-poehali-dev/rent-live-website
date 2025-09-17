@@ -85,7 +85,7 @@ const Index = () => {
       </header>
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-primary/5 to-primary/10 py-20">
+      <section className="bg-gradient-to-br from-primary/5 to-accent/10 py-20">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-5xl font-display font-bold text-card-foreground mb-6">
             Найдите идеальное жилье
@@ -122,7 +122,7 @@ const Index = () => {
                 />
               </div>
               <div className="flex items-end">
-                <Button className="w-full" size="lg">
+                <Button className="w-full bg-orange hover:bg-orange/90 text-orange-foreground" size="lg">
                   <Icon name="Search" size={20} className="mr-2" />
                   Поиск
                 </Button>
@@ -163,7 +163,7 @@ const Index = () => {
                       </Badge>
                     ))}
                   </div>
-                  <Button className="w-full">
+                  <Button className="w-full bg-orange hover:bg-orange/90 text-orange-foreground">
                     <Icon name="Eye" size={16} className="mr-2" />
                     Подробнее
                   </Button>
@@ -221,7 +221,7 @@ const Index = () => {
                   <Icon name="Heart" size={48} className="text-muted-foreground mx-auto mb-4" />
                   <h3 className="text-xl font-semibold mb-3">Ваши избранные объекты</h3>
                   <p className="text-muted-foreground mb-6">Сохраняйте понравившиеся варианты для быстрого доступа</p>
-                  <Button>
+                  <Button className="bg-orange hover:bg-orange/90 text-orange-foreground">
                     <Icon name="Plus" size={16} className="mr-2" />
                     Добавить в избранное
                   </Button>
@@ -251,7 +251,7 @@ const Index = () => {
                       <Input placeholder="+7 (999) 123-45-67" />
                     </div>
                   </div>
-                  <Button className="mt-6">
+                  <Button className="mt-6 bg-orange hover:bg-orange/90 text-orange-foreground">
                     <Icon name="Save" size={16} className="mr-2" />
                     Сохранить изменения
                   </Button>
@@ -325,7 +325,7 @@ const Index = () => {
                         <label className="text-sm font-medium mb-2 block">Сообщение</label>
                         <Input placeholder="Ваше сообщение..." />
                       </div>
-                      <Button className="w-full">
+                      <Button className="w-full bg-orange hover:bg-orange/90 text-orange-foreground">
                         <Icon name="Send" size={16} className="mr-2" />
                         Отправить
                       </Button>
